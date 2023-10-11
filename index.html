@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo list</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"/>
+    <link rel="stylesheet" href="to style.css/todo .css">
+
+</head>
+<style>
+    body{ animation-name: demo;
+    animation-duration: 25s;
+       background-image: url(image/td10.jpg);
+       background-repeat: no-repeat; background-size: cover;
+}
+    @keyframes demo {  
+        0%{background-image: url(image/td10.jpg); background-repeat: no-repeat; background-size: cover;}
+        25%{ background-image: url(image/td2.jpg); background-repeat: no-repeat;background-size: cover;}
+        50%{ background-image: url(image/td8.webp);background-repeat: no-repeat; background-size: cover;}
+        100%{ background-image: url(image/td0.jpg);background-repeat: no-repeat; background-size: cover;}
+    }
+</style>
+<body>
+    <div>
+        <h1> Work To Do </h1>
+    </div>
+    <div>
+        <p id="first"> Enter text into the input to add 
+            items to your list.</p>
+            <p id="second">Click the item to mark it as complete.</p>
+    <p id="third"> Click the x to remove the item from the text.</p>
+        </div>
+    <div>
+        <div>
+        <input type="text" 
+        name="" id="userInput" 
+        placeholder="new item..."
+         maxlength="27">
+
+         
+        <button  id="enter"> <i class="fas fa-pencil-alt"></i></button>
+    </div>
+    <div>
+        <ul>
+            <!-- <li>task one </li> -->
+        </ul>
+    </div>
+</body>
+<script src="java/todo.js"></script>
+</html>
